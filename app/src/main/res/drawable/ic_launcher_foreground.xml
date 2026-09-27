@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center disc glow -->
+    <path
+        android:fillColor="#264FC3F7"
+        android:pathData="M54,26 A28,28 0 1 1 53.9,26" />
+    <!-- Music note with beaming and download arrow in center safe zone (30..78) -->
+    <!-- Double Eighth Note Stem & Flag -->
+    <path
+        android:pathData="M42,32 L68,26 L68,60 A7,6 0 1 1 61,54 L61,38 L44,42 L44,66 A7,6 0 1 1 37,60 L37,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="26"
+                android:endX="68"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0E7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Download Badge Arrow in lower right quadrant -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M66,62 L78,62 L78,72 L84,72 L72,84 L60,72 L66,72 Z" />
+    <!-- Download Base bar -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M59,86 H85 V89 H59 Z" />
+</vector>

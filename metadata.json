@@ -1,0 +1,8 @@
+{
+  "name": "Remix Music Downloader",
+  "description": "Educational music downloader that downloads audio files to the Music folder, extracts and enhances album art with high-resolution artwork, and organizes your offline audio library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
